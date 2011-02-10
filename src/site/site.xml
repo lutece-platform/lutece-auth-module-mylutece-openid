@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Lutece">
+    
+    <version />
+    
+    <body>
+        <links>
+            <item name="FR" href="/fr/index.html" />
+        </links>
+        
+        <menu name="Module OpenID">
+            <item name="Introduction" href="index.html"/>
+            <item name="Installation" href="install.html"/>
+        </menu>
+        
+        <menu name="OpenID links">
+            <item name="Official site" href="http://openid.net/" target="_blank"/>
+            <item name="OIDS developers community" href="http://www.openidsource.org/"  target="_blank"/>
+            <item name="OpenID4Java" href="http://code.google.com/p/openid4java/" target="_blank"/>
+        </menu>	    
+        
+        <menu name="Downloads" inherit="bottom">
+			     <item name="Released versions" href="../../stable_builds/plugins/module-mylutece-openid/"/>
+			     <item name="Nightly builds" href="../../nightly_builds/plugins/module-mylutece-openid/" />
+		    </menu>
+        
+        <menu ref="reports" />
+    </body>
+</project>

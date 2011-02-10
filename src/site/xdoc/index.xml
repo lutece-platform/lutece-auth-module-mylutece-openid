@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Introduction</title>
+    </properties>
+    <body>
+        <section name="Overview of the module">
+            <p>
+                <img src="images/openid.gif" />
+            </p>
+            <subsection name="Introduction">
+                <p>This module let use OpenID to authenticate users in Lutece</p>
+                <p>This module implements the "RP" (Relying Party) layer of the OpenID architecture</p>
+                <p>All users having an OpenID can be authenticated by this module. Users who have not already
+                an OpenID should create one by using an "OP" (OpenID identity Provider) such as VeriSign, Orange.
+                
+                </p>
+                <p>
+                    For more information about OpenID please refer to links provided in the side bar. 
+                </p>
+            </subsection>
+        </section>
+    </body>
+</document>

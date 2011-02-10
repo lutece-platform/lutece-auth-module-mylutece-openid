@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Introduction</title>
+    </properties>
+    <body>
+        <section name="Descriptif du module OpenID pour MyLutece">
+            <subsection name="Introduction">
+                <p>Ce module d'authentification pour MyLutece permet d'utiliser le système de gestion d'identités OpenID.</p> 
+            </subsection>
+            <subsection name="Qu'est-ce que OpenID ?">
+                <img src="images/openid.gif" />
+                <p>
+                    OpenID permet à un utilisateur de s’authentifier auprès de plusieurs 
+                    sites (compatibles OpenID) sans avoir à retenir un identifiant pour chacun 
+                    d’eux mais en utilisant à chaque fois un unique identifiant OpenID. 
+                    Cet identifiant peut êtes acquis auprès d'un founisseur d'identité OpenID qui gérera
+                    de manière décentralisée l'authentification (par redirection) et les attributs
+                    liés à l'identifiant OpenID : nom de l'utilisateur, email, date de naissance, etc.
+                    L'ensemble de ces informations constitue l'identité de l'utilisateur. L'utilisateur
+                    peut contrôler, au niveau de son fournisseur, les attributs que celui-ci peut
+                    échanger avec le service utilisant l'identité.
+                </p>	
+                <p>
+                    Pour plus d'information sur OpenID, vous pouvez vous référer à la sélection de liens proposée
+                    dans le menu gauche.
+                </p>
+            </subsection>
+            <subsection name="Fonctionnalités du module">
+                <p>
+                    Ce module implémente la couche "RP" (Relying Party) de l'architecture OpenID. Il permet
+                    d'utiliser une identité OpenID pour s'identifier sur un site Lutèce. L'authentification
+                    de l'utilisateur est déléguée à l'"OP" (OpenID identity provider) qui est le fournisseur
+                    d'identité de l'utilisateur. L'utilisateur est libre de choisir son fournisseur (VeriSign, 
+                    OpenIDFrance, Orange, ...).
+                </p>
+                <p>
+                    Ce module ne fournit pas (pour l'instant) la couche "OP", c'est à dire fournisseur d'identités.
+                    Si vous souhaitez créer vos propres identités OpenID, il existe de nombreux outils tiers
+                    permettant d'assurer ce service.
+                </p>
+                <p>
+                    En matière de partage d'attributs, ce module propose par défaut la récupération du nom,
+                    du prénom et de l'email auprès de l'OP de l'utilisateur. Ceci peut être facilement étendu
+                    en fonction des besoins.
+                </p>
+            </subsection>
+        </section>
+    </body>
+</document>
