@@ -11,7 +11,7 @@
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>module-mylutece-openid</artifactId>
     <packaging>lutece-plugin</packaging>
-    <version>2.0.0</version>
+    <version>2.0.1-SNAPSHOT</version>
     <name>Lutece mylutece openid module</name>
 
     <repositories>
@@ -47,7 +47,7 @@
         <connection>scm:git:https://github.com/lutece-platform/lutece-auth-module-mylutece-openid.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-auth-module-mylutece-openid.git</developerConnection>
         <url>https://github.com/lutece-platform/lutece-auth-module-mylutece-openid.git</url>
-      <tag>lutece-auth-module-mylutece-openid-2.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
     
 </project>
